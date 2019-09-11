@@ -1,0 +1,57 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\jonhu\Documents\Hyperborea\LUX_TOGETHER\LUX_TOGETHER.PcbDoc
+Date     : 2019-03-30
+Time     : 2:12:51 PM
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.25mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (0.01mm < 0.25mm) Between Text "e" (21.404mm,24.752mm) on Top Overlay And Text "r" (22.583mm,24.752mm) on Top Overlay Silk Text to Silk Clearance [0.01mm]
+   Violation between Silk To Silk Clearance Constraint: (0.015mm < 0.25mm) Between Text "h" (19.921mm,24.752mm) on Top Overlay And Text "e" (21.404mm,24.752mm) on Top Overlay Silk Text to Silk Clearance [0.015mm]
+   Violation between Silk To Silk Clearance Constraint: (0.008mm < 0.25mm) Between Text "t" (18.904mm,24.752mm) on Top Overlay And Text "h" (19.921mm,24.752mm) on Top Overlay Silk Text to Silk Clearance [0.008mm]
+   Violation between Silk To Silk Clearance Constraint: (0.01mm < 0.25mm) Between Text "e" (17.726mm,24.752mm) on Top Overlay And Text "t" (18.904mm,24.752mm) on Top Overlay Silk Text to Silk Clearance [0.01mm]
+   Violation between Silk To Silk Clearance Constraint: (0.015mm < 0.25mm) Between Text "g" (16.161mm,24.752mm) on Top Overlay And Text "e" (17.726mm,24.752mm) on Top Overlay Silk Text to Silk Clearance [0.015mm]
+   Violation between Silk To Silk Clearance Constraint: (0.022mm < 0.25mm) Between Text "o" (14.88mm,24.752mm) on Top Overlay And Text "g" (16.161mm,24.752mm) on Top Overlay Silk Text to Silk Clearance [0.022mm]
+   Violation between Silk To Silk Clearance Constraint: (0.222mm < 0.25mm) Between Text "u" (8.661mm,24.752mm) on Top Overlay And Text "x" (10.226mm,24.752mm) on Top Overlay Silk Text to Silk Clearance [0.222mm]
+   Violation between Silk To Silk Clearance Constraint: (0.086mm < 0.25mm) Between Text "L" (6.243mm,24.752mm) on Top Overlay And Text "u" (8.661mm,24.752mm) on Top Overlay Silk Text to Silk Clearance [0.086mm]
+Rule Violations :8
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.05mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.25mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=100mm) (Prefered=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=12mm) (All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Area Fill (7.9mm,22mm) (8.8mm,26.9mm) on Top Layer And Pad A1-2(8.35mm,22.3mm) on Multi-Layer Location : [X = 33.75mm][Y = 47.701mm]
+Rule Violations :1
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.25mm) (Conductor Width=0.25mm) (Air Gap=0.25mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.25mm) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Area Fill (7.9mm,22mm) (8.8mm,26.9mm) on Top Layer And Pad A1-2(8.35mm,22.3mm) on Multi-Layer 
+Rule Violations :1
+
+
+Violations Detected : 10
+Time Elapsed        : 00:00:01
